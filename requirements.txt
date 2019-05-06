@@ -1,0 +1,6 @@
+memoize2
+psycopg2
+getsecret
+connexion
+requests
+import_ipynb
