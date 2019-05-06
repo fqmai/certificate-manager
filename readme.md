@@ -2,7 +2,7 @@
 
 ## install
 
-Execute the following line in Terminal to install prerequisites:
+Execute the following line in Terminal to install dependencies:
 
 ```
 python3 -m pip install -r requirements.txt
@@ -14,6 +14,8 @@ Create a file `.getsecret.yaml` containing your postgres credentials:
 POSTGRES_URL: <your postgres url>
 ```
 
+Prerequisite: install and run jupyter notebook. See https://jupyter.org/install.
+
 ## run the server
 
 ```
@@ -21,12 +23,13 @@ python3 server.py
 ```
 
 ## run the tests
+
 Keep the server running, and execute the following line:
 ```
 python3 tests.py
 ```
 
-## Future TODOs:
+## future TODOs:
 
 Due to limited time, some features are not fully implemented.
 
